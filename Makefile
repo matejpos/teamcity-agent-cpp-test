@@ -6,7 +6,7 @@ CCFLAGS = -Wall
 all: main
 
 main: main.cpp
-	${CC} ${CCFLAGS} -o main main.cpp
+	${CC} ${CCFLAGS} -o artefacts/main main.cpp
 
 clean:
-	rm -f main
+	rm -f artefacts/main
